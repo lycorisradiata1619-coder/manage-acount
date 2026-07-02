@@ -53,6 +53,9 @@ manage-acount/
 | 項目 | 内容 |
 |---|---|
 | GitHub リポジトリ | https://github.com/lycorisradiata1619-coder/manage-acount.git |
+| 公開 URL | https://lycorisradiata1619-coder.github.io/manage-acount/ |
+| デプロイ方法 | `main` ブランチへのプッシュで GitHub Actions が自動ビルド・デプロイ |
+| Vite base パス | `/manage-acount/` |
 
 ## Git 運用ルール
 
