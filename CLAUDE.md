@@ -35,7 +35,10 @@ manage-acount/
 ├── index.html         # エントリーポイント
 ├── src/
 │   ├── main.js         # アプリ初期化
-│   ├── App.vue         # ルートコンポーネント（状態管理・集計）
+│   ├── App.vue         # TOPページ／入力画面の切り替えのみを担う薄いルート
+│   ├── views/
+│   │   ├── TopPage.vue     # TOPページ（アプリ概要・入力画面への導線）
+│   │   └── InputScreen.vue # 入力画面（各ファンクション登録・GSC・結果表示）
 │   ├── lib/
 │   │   └── ifpug.js     # 複雑度判定・重み表・VAF計算ロジック
 │   ├── components/      # UI コンポーネント
